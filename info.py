@@ -17,9 +17,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'N2Bot')
-API_ID = int(environ.get('API_ID', '28057612'))
-API_HASH = environ.get('API_HASH', '95295dca0ca9f41855ec0cabe9b440ed')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7413667804:AAEJKxnvRmIdnsIbmpw0jvH-Lhzq7Fv5NLY")
+API_ID = int(environ.get('API_ID', '16846547'))
+API_HASH = environ.get('API_HASH', '051c4c84e1e0cf701ca91595e2e492c4')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5838174268:AAEQD-z8G8LtF-lpAAtcpzkRQXrwxxcIJmY")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
