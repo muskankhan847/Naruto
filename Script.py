@@ -252,7 +252,7 @@ IMDb Data:
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
 🎛 Countries : <code>{countries}</code>
-✨ BOT BY : @DeveloperJaat
+✨ BOT BY : @Sahil_khan02
 
 📖 {plot}
 
