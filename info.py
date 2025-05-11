@@ -19,7 +19,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'N2Bot')
 API_ID = int(environ.get('API_ID', '16846547'))
 API_HASH = environ.get('API_HASH', '051c4c84e1e0cf701ca91595e2e492c4')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5838174268:AAEQD-z8G8LtF-lpAAtcpzkRQXrwxxcIJmY")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7863306712:AAFDDWYRd69E8BWyoU2_mSyeDmG3sSA5arY")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -29,8 +29,8 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/4499072a9f9f4ec1b
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002253649717'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7473766119').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001747430026'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1348955561').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
