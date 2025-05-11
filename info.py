@@ -108,8 +108,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in/')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e8982e891252fdb2a596420fa8148ee7d742b5b1')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'sharedisklinks.com/')
+SHORTLINK_API = environ.get('SHORTLINK_API', '6cf915731b53d7fbef2793d635fe5a7723add415')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
